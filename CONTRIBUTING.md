@@ -69,7 +69,7 @@ Nobody is perfect, and sometimes we mess things up. That said, here are some goo
 * Conform to the project coding style found in [CodingStyle.md](https://github.com/LadybirdBrowser/ladybird/blob/master/Documentation/CodingStyle.md). Use `clang-format` (version 19) to automatically format C++ files. See [AdvancedBuildInstructions.md](https://github.com/LadybirdBrowser/ladybird/blob/master/Documentation/AdvancedBuildInstructions.md#clang-format-updates) for instructions on how to get an up-to-date version if your OS distribution does not ship clang-format-19.
 * Choose expressive variable, function and class names. Make it as obvious as possible what the code is doing.
 * Split your changes into separate, atomic commits (i.e. A commit per feature or fix, where the build, tests and the system are all functioning).
-* Make sure your commits are rebased on the master branch.
+* Make sure your commits are rebased on the main branch.
 * Wrap your commit messages at 72 characters.
 * The first line of the commit message is the subject line, and must have the format "Category: Brief description of what's being changed". The category should be the name of a library, application, service, utility, etc.
   * Examples: `LibMedia`, `WebContent`, `CI`, `AK`, `RequestServer`, `js`
